@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  timebot:
+    image: zach/timebot
+    container_name: timebot
+    restart: unless-stopped
